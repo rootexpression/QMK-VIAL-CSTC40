@@ -11,14 +11,17 @@ Editing Hard Coded Layer Colors:
 
 ../keyboards/kprepublic/cstc40/config.h
 
-// ================================================ HSV ================================================ //
-#define RGB_MATRIX_DEFAULT_HUE 2//10 // Sets the default hue value, if none has been set
-#define RGB_MATRIX_DEFAULT_SAT 230//253 // Sets the default saturation value, if none has been set
-#define RGB_MATRIX_DEFAULT_VAL 100 // Sets the default brightness value, if none has been set
-// ================================================ HSV ================================================ //
+
+#define RGB_MATRIX_DEFAULT_HUE
+#define RGB_MATRIX_DEFAULT_SAT
+#define RGB_MATRIX_DEFAULT_VAL
+
 
 
 ../keyboards/kprepublic/cstc40/single_pcb/keymaps/error/keymap.c
 For each CASE, and the last if statement for capslock:
-              rgb_matrix_set_color(index, RGB_CORAL);
+              rgb_matrix_set_color(index, RGB_RED);
             
+Please see the QMK docs for how to make use of these settings.
+
+https://docs.qmk.fm/#/feature_rgb_matrix?id=colors
