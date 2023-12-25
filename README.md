@@ -3,7 +3,7 @@
 My CSTC40 config
 
 
-!(https://github.com/rootexpression/QMK-VIAL-CSTC40/blob/main/Images/L0-4-b.webp)
+![Demo of Layer Colors](https://github.com/rootexpression/QMK-VIAL-CSTC40/blob/main/Images/L0-4-b.webp)
 
 This adds a hard-coded solid color, and per layer colors for non-transparent keys (any that are overwritten by that layer over the base layer), as well as setting the color for all alpha keys when caps-lock is active.
 
